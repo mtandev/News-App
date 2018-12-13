@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="connection_lost">Whoops we lost you. Check your internet connection.</string>
+    <string name="no_content">Content can\'t load. Check your internet connection.</string>
+
+    <string name="byline">Written By:</string>
+    <string name="author">Author</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="no_author">No Author ..</string>
+
+
+    <!--settings-->
+    <string name="settings_menu">Settings</string>
+    <string name="settings_name">News Settings</string>
+
+    <string name="settings_default" translatable="false">0</string>
+    <string name="settings_key" translatable="false">min_articles</string>
+    <string name="settings_tag">Minimum Articles</string>
+
+    <!--order by-->
+    <string name="orderBy_default" translatable="false">@string/orderBy_newestVal</string>
+    <string name="orderBy_key" translatable="false">order_by</string>
+    <string name="orderBy_tag">Order By</string>
+
+    <!--newest-->
+    <string name="orderBy_newestTag">Newest</string>
+    <string name="orderBy_newestVal" translatable="false">newest</string>
+
+    <!--oldest-->
+    <string name="orderBy_oldestTag">Oldest</string>
+    <string name="orderBy_oldestVal" translatable="false">oldest</string>
+
+    <!--relevance-->
+    <string name="orderBy_relevanceTag">Relevance</string>
+    <string name="orderBy_relevanceVal" translatable="false">relevance</string>
+
+
+    <!--section-->
+    <string name="section_tag">Section</string>
+    <string name="section_key" translatable="false">section</string>
+    <string name="section_default">@string/section_allVal</string>
+
+    <!--all-->
+    <string name="section_allTag">All</string>
+    <string name="section_allVal" translatable="false"></string>
+
+    <!--us news-->
+    <string name="section_usTag">US News</string>
+    <string name="section_usVal" translatable="false">us-news</string>
+
+    <!--culture-->
+    <string name="section_cultureTag">Culture</string>
+    <string name="section_cultureVal" translatable="false">culture</string>
+
+    <!--books-->
+    <string name="section_booksTag">Books</string>
+    <string name="section_booksVal" translatable="false">books</string>
+
+    <!--business-->
+    <string name="section_businessTag">Business</string>
+    <string name="section_businessVal" translatable="false">business</string>
+
+    <!--technology-->
+    <string name="section_technologyTag">Technology</string>
+    <string name="section_technologyVal" translatable="false">technology</string>
+    
+    <!--fashion-->
+    <string name="section_fashionTag">Fashion</string>
+    <string name="section_fashionVal" translatable="false">fashion</string>
+
+
+    <!--arrays-->
+    <string-array name="orderBy_tags">
+        <item>@string/orderBy_newestTag</item>
+        <item>@string/orderBy_oldestTag</item>
+        <item>@string/orderBy_relevanceTag</item>
+    </string-array>
+
+    <string-array name="orderBy_vals">
+        <item>@string/orderBy_newestVal</item>
+        <item>@string/orderBy_oldestVal</item>
+        <item>@string/orderBy_relevanceVal</item>
+    </string-array>
+
+    <string-array name="section_tags">
+        <item>@string/section_allTag</item>
+        <item>@string/section_usTag</item>
+        <item>@string/section_booksTag</item>
+        <item>@string/section_businessTag</item>
+        <item>@string/section_cultureTag</item>
+        <item>@string/section_fashionTag</item>
+        <item>@string/section_technologyTag</item>
+    </string-array>
+
+    <string-array name="section_vals">
+        <item>@string/section_allVal</item>
+        <item>@string/section_usVal</item>
+        <item>@string/section_booksVal</item>
+        <item>@string/section_businessVal</item>
+        <item>@string/section_cultureVal</item>
+        <item>@string/section_fashionVal</item>
+        <item>@string/section_technologyVal</item>
+    </string-array>
+
+
+</resources>

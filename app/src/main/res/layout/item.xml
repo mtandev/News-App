@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="@dimen/mainLayout_padding">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/tv_margin"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size"
+        tools:text="Title"/>
+
+    <LinearLayout
+        style="@style/section_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_style"
+            android:text="@string/byline"/>
+
+        <TextView
+            android:id="@+id/author_tv"
+            style="@style/text_style"
+            android:text="@string/byline"
+            android:textColor="@color/colorPrimary"
+            tools:text="@string/author"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/section_style"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/category_tv"
+                style="@style/text_style"
+                tools:text="@string/category"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/view_width"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/view_marginTop"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            style="@style/section_style"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/date_tv"
+                style="@style/text_style"
+                tools:text="@string/date"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/view_width"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/view2_marginTop"
+        android:background="@android:color/darker_gray"/>
+
+
+
+
+</LinearLayout>

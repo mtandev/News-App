@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- activity_main-->
+    <dimen name="lv_dividerHeight">0dp</dimen>
+    <dimen name="progressBar_width">200dp</dimen>
+
+    <!--item.xml-->
+    <dimen name="mainLayout_padding">16dp</dimen>
+    <dimen name="tv_margin">16dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="view_width">1dp</dimen>
+    <dimen name="view_marginTop">16dp</dimen>
+    <dimen name="view2_marginTop">10dp</dimen>
+
+
+
+</resources>

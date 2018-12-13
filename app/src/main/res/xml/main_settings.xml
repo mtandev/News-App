@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_name">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_tag"/>
+
+    <ListPreference
+        android:defaultValue="@string/orderBy_default"
+        android:entries="@array/orderBy_tags"
+        android:entryValues="@array/orderBy_vals"
+        android:key="@string/settings_key"
+        android:title="@string/orderBy_tag" />
+
+    <ListPreference
+        android:defaultValue="@string/section_default"
+        android:entries="@array/section_tags"
+        android:entryValues="@array/section_vals"
+        android:key="@string/section_key"
+        android:title="@string/section_tag" />
+
+</PreferenceScreen>
