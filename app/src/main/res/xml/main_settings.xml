@@ -13,7 +13,7 @@
         android:defaultValue="@string/orderBy_default"
         android:entries="@array/orderBy_tags"
         android:entryValues="@array/orderBy_vals"
-        android:key="@string/settings_key"
+        android:key="@string/orderBy_key"
         android:title="@string/orderBy_tag" />
 
     <ListPreference
