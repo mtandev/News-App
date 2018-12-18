@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     private NewsAdapter newsAdapter;
     private TextView noContentTV;
-    private static String REQUEST_URL = "https://content.guardianapis.com/search?api-key=";
+    private static String REQUEST_URL = "https://content.guardianapis.com/search?api-key=test";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,7 +73,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         Uri baseUri = Uri.parse(REQUEST_URL);
         Uri.Builder uriBuilder = baseUri.buildUpon();
 
-        uriBuilder.appendQueryParameter("api-key", "test");
         uriBuilder.appendQueryParameter("show-tags", "contributor");
         uriBuilder.appendQueryParameter("page-size", minArticles);
         uriBuilder.appendQueryParameter("order-by", orderBy);
